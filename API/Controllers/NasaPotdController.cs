@@ -24,7 +24,7 @@ namespace API.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<NasaPotd>> Get(int id)
+        public async Task<ActionResult<NasaPotd>> GetSingle(int id)
         {
             var nasaPotds = await _context.NasaPotds.ToListAsync();
             var nasaPotd = nasaPotds.FirstOrDefault(p => p.Id == id);
