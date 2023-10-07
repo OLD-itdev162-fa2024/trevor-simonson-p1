@@ -1,0 +1,38 @@
+ul{
+    list-style: none;
+}
+
+#nasa_potd_figure {
+
+    max-width: 50%;
+    border: 2px solid black;
+    border-radius: 8%;
+    padding: 1rem 4rem 2rem 4rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(33, 44, 54, 0.83);
+    background-color: rgba(150, 153, 165, 0.247);
+    margin-bottom: 2rem;
+
+}
+
+#nasa_potd_figure img {
+    display: center;
+    max-height: 750px;
+    width: auto;
+    height: auto;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+#potd {
+    width: 100%
+}
+
+p {
+    text-align: left;
+
+}

@@ -1,1 +1,13 @@
 <h1>{{title}}</h1>
+
+<ul>
+  <li *ngFor="let potd of nasaPotds" id="nasa_potd_figure">
+        <h2>{{potd.title}}</h2>
+        <img src="{{potd.url}}" alt="">
+        <p>{{potd.explanation}}</p>
+  </li>
+</ul>
+
+<!--    
+
+  -->
